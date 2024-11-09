@@ -1,0 +1,75 @@
+* {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Images/CTU.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.registers h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.registers table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+.registers th, .registers td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+}
+th {
+    background-color: #f2f2f2;
+   
+
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+   
+
+}
+tr:hover {
+    background-color: #f1ad54;
+}
+
+.registers {
+        width: 80%;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow-x: auto;
+        max-width: 1200px;
+        margin-top: 225px;
+        margin-left: 170px;
+   
+}
+
+.registers button {
+    background-color: orangered;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 5px;
+}
+
+.registers button:hover {
+    background-color: darkorange;
+}

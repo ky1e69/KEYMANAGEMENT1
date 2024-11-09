@@ -1,0 +1,72 @@
+* {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('Images/CTU.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.borrow {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.788);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.borrow h1 {
+    margin-bottom: 20px;
+}
+
+.borrow input,
+.borrow select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.borrow button {
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.borrow button:hover {
+    background-color: darkorange;
+}
+
+.borrow .back-button {
+    background-color: gray;
+}
+
+.borrow .back-button:hover {
+    background-color: darkgray;
+}
+
+.borrow a{
+    color:blue;
+    text-decoration: underline;
+}

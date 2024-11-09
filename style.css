@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #bdc3c7 0%, #2c3e50 100%);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+   
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    margin: 0 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+.title .tagline {
+    font-size: 24px;
+    color: #666;
+}
+
+
+main {
+    text-align: center;
+    padding: 80px 20px;
+    
+}
+
+.hero {
+    margin-top: 40px;
+    
+}
+
+.navigation-buttons {
+    margin-top: 75px; 
+    
+}
+
+.navigation-buttons ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    gap: 20px; /* Add space between buttons */
+}
+
+.navigation-buttons ul li {
+    margin-bottom: 75px;
+    width: 300px; /* Fixed width for the outer box */
+    height: 150px; /* Fixed height for the outer box */
+    background-color: #f39c12; /* Background color for the box */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Box shadow for the outer box */
+    border-radius: 10px;
+    margin-bottom: 75px;
+    
+}
+.navigation-buttons ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #efece7;
+    padding: 120px 100px;
+    font-weight: bold;
+    font-size: 25px;
+    border: 4px solid transparent; /* Border effect */
+    border-radius: 20px;
+    text-align: center;
+    transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Border shadow */
+    
+}
+
+.navigation-buttons ul li a:hover {
+    background-color: #ed8138;
+    border-color: #0a0a0a; /* Change border color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
