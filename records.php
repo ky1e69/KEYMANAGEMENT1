@@ -10,7 +10,7 @@
 
 <div class="records">
     <h1>Key Records</h1>
-    <button onclick="window.location.href='homepage.php'">Homepage</button>
+    <button onclick="window.location.href='admindashboard.php'">DASHBOARD</button>
     <table>
         <thead>
             <tr>

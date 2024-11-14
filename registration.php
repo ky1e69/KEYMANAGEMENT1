@@ -12,8 +12,7 @@
 <header>
     <div class="header-container">
     <img src="Images/CTU Logo.png" alt="CTU Logo" class="logo"> <!-- Logo -->
-        <a href="studentlogin.php" class="home-btn">LOG IN</a> <!-- Home button -->
-    
+    <img src="Images/COE.png" alt="COE" class="logo">
     </div>
 </header>
 

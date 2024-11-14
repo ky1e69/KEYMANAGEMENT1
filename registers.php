@@ -7,8 +7,7 @@
 <body>
     <div class="registers">
     <h1>Registered Users</h1>
-    <button onclick="window.location.href='dashboard.php'">Back</button>
-    <button onclick="window.location.href='homepage.php'">Homepage</button> 
+    <button onclick="window.location.href='admindashboard.php'">DASHBOARD</button> 
     <table>
     <thead>
         <tr>
@@ -16,7 +15,7 @@
             <th>Id number</th>
             <th>Section</th>
             <th>Email</th>
-            <th>Password</th>
+            
             
         </tr>
     </thead>
@@ -39,7 +38,7 @@
                         <td>{$row['idnum']}</td>
                         <td>{$row['section']}</td>
                         <td>{$row['email']}</td>
-                        <td>{$row['password']}</td>
+                       
     
                         ";
                 echo "</td>

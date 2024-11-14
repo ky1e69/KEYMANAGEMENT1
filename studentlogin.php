@@ -34,7 +34,7 @@ if (isset($_POST['login'])) {
             // Verify the password
             if (password_verify($password, $user['password'])) {
                 $_SESSION['user'] = $user['email']; // Set session for logged-in user
-                header("Location: borrow.php"); // Redirect to borrow.php
+                header("Location: homepage.php"); // Redirect to borrow.php
                 exit;
             } else {
                 $alertMessage = "Incorrect password.";
@@ -55,9 +55,9 @@ if (isset($_POST['login'])) {
    <div class="wrapper">
         <!-- The alert will be handled by JavaScript -->
         <form action="studentlogin.php" method="post">
-            <h1>Login</h1>
+            <h1>STUDENT LOG IN</h1>
             <div class="input-box">
-                <input type="text" name="username" placeholder="Username" required>
+                <input type="text" name="username" placeholder="Email" required>
                 <i class='bx bxs-user'></i>
             </div>
             <div class="input-box">
@@ -76,7 +76,7 @@ if (isset($_POST['login'])) {
         <div class="image-container"></div>
     </div>
 
-    <button class="bottom-right-button" onclick="location.href='adminverify.php'">Login as Admin</button>
+    <button class="bottom-right-button" onclick="location.href='adminlogin.php'">Login as Admin</button>
 
     <script>
         // Check if there's an alert message from PHP

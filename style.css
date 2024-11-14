@@ -79,49 +79,49 @@ main {
     gap: 20px; /* Add space between buttons */
 }
 
+/* General button styles */
 .navigation-buttons ul li {
     margin-bottom: 75px;
-    width: 300px; /* Fixed width for the outer box */
-    height: 150px; /* Fixed height for the outer box */
-    background-color: #f39c12; /* Background color for the box */
+    width: 300px;
+    height: 150px;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Box shadow for the outer box */
-    border-radius: 10px;
-    margin-bottom: 75px;
-    
+  
 }
+
+/* Style for each link in the list */
 .navigation-buttons ul li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #333;
     background-color: #efece7;
-    padding: 120px 100px;
+    padding: 40px 60px;
     font-weight: bold;
     font-size: 25px;
-    border: 4px solid transparent; /* Border effect */
+    border: 4px solid transparent;
     border-radius: 20px;
     text-align: center;
     transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
     display: inline-block;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Border shadow */
-    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Hover effect */
 .navigation-buttons ul li a:hover {
     background-color: #ed8138;
-    border-color: #0a0a0a; /* Change border color on hover */
-    transform: scale(1.05); /* Slightly enlarge the button */
+    border-color: #0a0a0a;
+    transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 50px;
-    text-align: center;
-    font-size: 16px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+/* Specific style for the Log Out button */
+.navigation-buttons ul li a.logout {
+    background-color: #e74c3c; /* Different background color for Log Out */
+    color: #fff;
+}
+
+.navigation-buttons ul li a.logout:hover {
+    background-color: #c0392b;
+    border-color: #fff;
 }
