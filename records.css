@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url('Images/CTU.png');
+    background: linear-gradient(135deg, #bdc3c7 0%, #2c3e50 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -54,7 +54,7 @@ body {
 }
 
 .records tr:hover {
-    background-color: #f1f1f1;
+    background-color: #f1ad54;
 }
 
 .records button {
