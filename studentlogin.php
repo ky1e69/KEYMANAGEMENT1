@@ -55,7 +55,7 @@ if (isset($_POST['login'])) {
    <div class="wrapper">
         <!-- The alert will be handled by JavaScript -->
         <form action="studentlogin.php" method="post">
-            <h1>STUDENT LOG IN</h1>
+            <h1>STUDENT LOG IN kier</h1>
             <div class="input-box">
                 <input type="text" name="username" placeholder="Email" required>
                 <i class='bx bxs-user'></i>
