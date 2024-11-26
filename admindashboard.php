@@ -23,7 +23,11 @@ if (isset($_POST['logout'])) {
     <script src="https://kit.fontawesome.com/4804625ee9.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="admindashboard.css">
-    <title>ADMIN - CTU KEY MANAGEMENT SYSTEM</title>
+<<<<<<< HEAD
+    <title>ADMIN - CTU KEY MANAGEMENT SYSTEM man</title>
+=======
+    <title>ADMIN - CTU KEY MANAGEMENT SYSTEM chrstian</title>
+>>>>>>> 281ad3cc1480897e9c242be33cf495d3e0913c80
 </head> 
 <body>
 
